@@ -5,6 +5,11 @@ public class GameCamera : MonoBehaviour {
 
 	private Transform target;
 	private float trackSpeed = 10;
+	private float yOffset;
+
+	void Start() {
+		yOffset = this.gameObject.transform.position.y;
+	}
 
 	/// <summary>
 	/// Sets the target of the camera to follow the Player.
@@ -20,7 +25,7 @@ public class GameCamera : MonoBehaviour {
 	void LateUpdate() {
 		if (target) {
 			float x = PublicMethods.IncrementTowards(transform.position.x, target.position.x, trackSpeed);
-			float y = PublicMethods.IncrementTowards(transform.position.y, target.position.y+3, trackSpeed);
+			float y = PublicMethods.IncrementTowards(transform.position.y, target.position.y+yOffset, trackSpeed);
 			transform.position = new Vector3(x,y,transform.position.z);
 		}
 	}

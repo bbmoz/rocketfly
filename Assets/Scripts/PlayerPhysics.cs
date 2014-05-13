@@ -106,7 +106,8 @@ public class PlayerPhysics : MonoBehaviour {
 
 		Vector2 finalTransform = new Vector2(deltaX, deltaY);
 
-		transform.Translate(finalTransform);
+		// movement
+		transform.Translate(finalTransform, Space.World); 
 	}
 
 	public void SetCollider(Vector3 s, Vector3 c) {
@@ -114,5 +115,9 @@ public class PlayerPhysics : MonoBehaviour {
 		collider.center = c;
 		size = s*colliderScale;
 		center = c*colliderScale;
+	}
+
+	public void ResetCollider() {
+		SetCollider(originalSize, originalCenter);
 	}
 }

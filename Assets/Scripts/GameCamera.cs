@@ -20,7 +20,7 @@ public class GameCamera : MonoBehaviour {
 	void LateUpdate() {
 		if (target) {
 			float x = PublicMethods.IncrementTowards(transform.position.x, target.position.x, trackSpeed);
-			float y = PublicMethods.IncrementTowards(transform.position.y, target.position.y, trackSpeed);
+			float y = PublicMethods.IncrementTowards(transform.position.y, target.position.y+3, trackSpeed);
 			transform.position = new Vector3(x,y,transform.position.z);
 		}
 	}

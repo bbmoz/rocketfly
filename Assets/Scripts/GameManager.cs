@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour {
 	/// Spawns the player.
 	/// </summary>
 	private void SpawnPlayer() {
-		cam.SetTarget((Instantiate(player, Vector3.zero, Quaternion.identity) as GameObject).transform);
+		Transform t = (Instantiate(player, Vector3.zero, Quaternion.AngleAxis(90, Vector3.up)) as GameObject).transform;
+		cam.SetTarget(t);
 	}
 }

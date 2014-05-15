@@ -15,7 +15,7 @@ public class PlayerPhysics : MonoBehaviour {
 	private float colliderScale;
 
 	private int collisionDivisionX = 10;
-	private int collisionDivisionY = 3;
+	private int collisionDivisionY = 10; // TODO: when falling, rays don't spread over space!!
 
 	private float skin = .01f; // small space between player and ground to avoid buggy collision rays
 
@@ -45,7 +45,7 @@ public class PlayerPhysics : MonoBehaviour {
 		// vertical collision
 		for(int i=0; i<collisionDivisionY; i++) {
 			float dir = Mathf.Sign(deltaY);
-			float x = (position.x + center.x - size.x/(collisionDivisionY-1)) + size.x/2 * i; // left, center, and right of collider
+			float x = position.x + center.x - size.x/(collisionDivisionY-1) * i; // left, center, and right of collider
 			float y = position.y + center.y + size.y/2 * dir; // top or bottom of collider
 
 			ray = new Ray(new Vector2(x,y), new Vector2(0, dir));

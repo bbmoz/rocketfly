@@ -12,7 +12,7 @@ public class CubeController : EntityController {
 
 	void OnTriggerEnter(Collider c) {
 		if (c.tag == "Player") {
-			gameObject.GetComponent<EntityController>().TakeDamage(2);
+			//gameObject.GetComponent<EntityController>().TakeDamage(2);
 		}
 	}
 }

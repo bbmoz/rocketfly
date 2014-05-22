@@ -15,7 +15,7 @@ public class PlayerPhysics : MonoBehaviour {
 	private float colliderScale;
 
 	private int collisionDivisionX = 10;
-	private int collisionDivisionY = 10; // TODO: when falling, rays don't spread over space!!
+	private int collisionDivisionY = 5; // TODO: when falling, rays don't spread over space!!
 
 	private float skin = .01f; // small space between player and ground to avoid buggy collision rays
 
@@ -25,6 +25,10 @@ public class PlayerPhysics : MonoBehaviour {
 	public bool movementStopped; // to avoid "sticking" for horizontal collision
 	[HideInInspector]
 	public bool canWallHold;
+
+	private Transform platform;
+	private Vector3 platformPositionOld;
+	private Vector3 deltaPlatformPosition;
 
 	Ray ray;
 	RaycastHit hit;
@@ -42,15 +46,25 @@ public class PlayerPhysics : MonoBehaviour {
 		float deltaY = moveAmount.y;
 		Vector2 position = transform.position;
 
+		if (platform) {
+			deltaPlatformPosition = platform.position - platformPositionOld;
+		} else {
+			deltaPlatformPosition = Vector3.zero;
+		}
+
+		#region Vertical Collision
 		// vertical collision
 		for(int i=0; i<collisionDivisionY; i++) {
 			float dir = Mathf.Sign(deltaY);
-			float x = position.x + center.x - size.x/(collisionDivisionY-1) * i; // left, center, and right of collider
+			float x = position.x + center.x - size.x/2 + size.x/(collisionDivisionY-1) * i; // left, center, and right of collider
 			float y = position.y + center.y + size.y/2 * dir; // top or bottom of collider
 
 			ray = new Ray(new Vector2(x,y), new Vector2(0, dir));
 			Debug.DrawRay(ray.origin, ray.direction);
 			if (Physics.Raycast(ray, out hit, Mathf.Abs(deltaY)+skin, collisionMask)) {
+				platform = hit.transform;
+				platformPositionOld = platform.position;
+
 				float dist = Vector3.Distance(ray.origin, hit.point); // distance between player and ground
 
 				// stop player's downward movement after coming within skin width of collider
@@ -63,9 +77,12 @@ public class PlayerPhysics : MonoBehaviour {
 				break;
 			} else {
 				grounded = false;
+				platform = null;
 			}
 		}
+		#endregion
 
+		#region Horizontal Collision
 		// horizontal collision
 		movementStopped = false;
 		canWallHold = false;
@@ -80,7 +97,6 @@ public class PlayerPhysics : MonoBehaviour {
 				ray = new Ray(new Vector2(x,y), new Vector2(dir, 0));
 				Debug.DrawRay(ray.origin, ray.direction);
 				if (Physics.Raycast(ray, out hit, Mathf.Abs(deltaX)+skin, collisionMask)) {
-
 					if (hit.collider.tag == "Wall") {
 						if (moveDir!=0 && Mathf.Sign(deltaX) == Mathf.Sign(moveDir)) {
 							canWallHold = true;
@@ -89,7 +105,7 @@ public class PlayerPhysics : MonoBehaviour {
 
 					float dist = Vector3.Distance(ray.origin, hit.point); // distance between player and ground
 					
-					// stop player's downward movement after coming within skin width of collider
+					// stop player's horizontal movement after coming within skin width of collider
 					if (dist > skin) {
 						deltaX = (dist-skin)*dir;
 					} else {
@@ -102,7 +118,9 @@ public class PlayerPhysics : MonoBehaviour {
 				} 
 			}
 		}
+		#endregion
 
+		#region Diagonal Collision
 		// diagonal collision
 		if (!grounded && !movementStopped) {
 			Vector3 playerDir = new Vector3(deltaX, deltaY);
@@ -116,8 +134,9 @@ public class PlayerPhysics : MonoBehaviour {
 				deltaY = 0;
 			}
 		}
+		#endregion
 
-		Vector2 finalTransform = new Vector2(deltaX, deltaY);
+		Vector2 finalTransform = new Vector2(deltaX + deltaPlatformPosition.x, deltaY);
 
 		// movement
 		transform.Translate(finalTransform, Space.World); 

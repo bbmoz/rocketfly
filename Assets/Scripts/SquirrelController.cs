@@ -115,7 +115,7 @@ public class SquirrelController : MonoBehaviour {
 		if (jumping && amountToMove.y <= 0.0f) {
 			falling = true;
 			animator.SetBool("Falling", true);
-			playerPhysics.SetCollider(new Vector3(3.82f,17.2f, 19.2f), new Vector3(0.11f, -6.32f, -1.12f));
+			//playerPhysics.SetCollider(new Vector3(3.82f,17.2f, 19.2f), new Vector3(0.11f, -6.32f, -1.12f));
 		}
 
 	}

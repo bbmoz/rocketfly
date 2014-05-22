@@ -1,0 +1,1119 @@
+fileFormatVersion: 2
+guid: e6b2ff57720ac9247ba821b845546eda
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: chest
+    100002: Ear_L
+    100004: Ear_L_001
+    100006: Ear_R
+    100008: Ear_R_001
+    100010: Eye_L
+    100012: Eye_R
+    100014: f_pinky_01_L
+    100016: f_pinky_01_R
+    100018: f_pinky_02_L
+    100020: f_pinky_02_R
+    100022: f_pinky_03_L
+    100024: f_pinky_03_R
+    100026: f_ring_01_L
+    100028: f_ring_01_R
+    100030: f_ring_02_L
+    100032: f_ring_02_R
+    100034: f_ring_03_L
+    100036: f_ring_03_R
+    100038: foot_L
+    100040: foot_R
+    100042: forearm_L
+    100044: forearm_R
+    100046: HairBone
+    100048: hand_L
+    100050: hand_R
+    100052: head
+    100054: heel_02_L
+    100056: heel_02_R
+    100058: heel_L
+    100060: heel_R
+    100062: hips
+    100064: JawBone
+    100066: Mouth_L
+    100068: Mouth_R
+    100070: neck
+    100072: NoseBone
+    100074: palm_03_L
+    100076: palm_03_R
+    100078: palm_04_L
+    100080: palm_04_R
+    100082: polySurface16_002
+    100084: shin_L
+    100086: shin_R
+    100088: shoulder_L
+    100090: shoulder_R
+    100092: spine
+    100094: //RootNode
+    100096: Sq1Trig
+    100098: TailBone
+    100100: TailBone_001
+    100102: TailBone_002
+    100104: TailBone_003
+    100106: TailBone_004
+    100108: TailBone_005
+    100110: TailBone_006
+    100112: TailBone_007
+    100114: TailBone_008
+    100116: thigh_L
+    100118: thigh_R
+    100120: toe_L
+    100122: toe_R
+    100124: upper_arm_L
+    100126: upper_arm_R
+    400000: chest
+    400002: Ear_L
+    400004: Ear_L_001
+    400006: Ear_R
+    400008: Ear_R_001
+    400010: Eye_L
+    400012: Eye_R
+    400014: f_pinky_01_L
+    400016: f_pinky_01_R
+    400018: f_pinky_02_L
+    400020: f_pinky_02_R
+    400022: f_pinky_03_L
+    400024: f_pinky_03_R
+    400026: f_ring_01_L
+    400028: f_ring_01_R
+    400030: f_ring_02_L
+    400032: f_ring_02_R
+    400034: f_ring_03_L
+    400036: f_ring_03_R
+    400038: foot_L
+    400040: foot_R
+    400042: forearm_L
+    400044: forearm_R
+    400046: HairBone
+    400048: hand_L
+    400050: hand_R
+    400052: head
+    400054: heel_02_L
+    400056: heel_02_R
+    400058: heel_L
+    400060: heel_R
+    400062: hips
+    400064: JawBone
+    400066: Mouth_L
+    400068: Mouth_R
+    400070: neck
+    400072: NoseBone
+    400074: palm_03_L
+    400076: palm_03_R
+    400078: palm_04_L
+    400080: palm_04_R
+    400082: polySurface16_002
+    400084: shin_L
+    400086: shin_R
+    400088: shoulder_L
+    400090: shoulder_R
+    400092: spine
+    400094: //RootNode
+    400096: Sq1Trig
+    400098: TailBone
+    400100: TailBone_001
+    400102: TailBone_002
+    400104: TailBone_003
+    400106: TailBone_004
+    400108: TailBone_005
+    400110: TailBone_006
+    400112: TailBone_007
+    400114: TailBone_008
+    400116: thigh_L
+    400118: thigh_R
+    400120: toe_L
+    400122: toe_R
+    400124: upper_arm_L
+    400126: upper_arm_R
+    4300000: polySurface16_002
+    7400000: Default Take
+    7400002: St_falling
+    7400004: St_forwards1
+    7400006: St_forwards2
+    7400008: St_idle1
+    7400010: St_jump
+    9500000: //RootNode
+    13700000: polySurface16_002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: polySurface16_002
+        weight: 1
+      - path: Sq1Trig
+        weight: 1
+      - path: Sq1Trig/hips
+        weight: 1
+      - path: Sq1Trig/hips/spine
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_L/Ear_L_001
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_R/Ear_R_001
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Eye_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Eye_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/HairBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/JawBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Mouth_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Mouth_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/NoseBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: Sq1Trig/hips/TailBone
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006/TailBone_007
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006/TailBone_007/TailBone_008
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: St_falling
+      takeName: St_falling
+      firstFrame: -1
+      lastFrame: 11
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: polySurface16_002
+        weight: 1
+      - path: Sq1Trig
+        weight: 1
+      - path: Sq1Trig/hips
+        weight: 1
+      - path: Sq1Trig/hips/spine
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_L/Ear_L_001
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_R/Ear_R_001
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Eye_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Eye_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/HairBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/JawBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Mouth_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Mouth_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/NoseBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: Sq1Trig/hips/TailBone
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006/TailBone_007
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006/TailBone_007/TailBone_008
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: St_forwards1
+      takeName: St_forwards1
+      firstFrame: -1
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: polySurface16_002
+        weight: 1
+      - path: Sq1Trig
+        weight: 1
+      - path: Sq1Trig/hips
+        weight: 1
+      - path: Sq1Trig/hips/spine
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_L/Ear_L_001
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_R/Ear_R_001
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Eye_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Eye_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/HairBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/JawBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Mouth_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Mouth_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/NoseBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: Sq1Trig/hips/TailBone
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006/TailBone_007
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006/TailBone_007/TailBone_008
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: St_forwards2
+      takeName: St_forwards2
+      firstFrame: -1
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: polySurface16_002
+        weight: 1
+      - path: Sq1Trig
+        weight: 1
+      - path: Sq1Trig/hips
+        weight: 1
+      - path: Sq1Trig/hips/spine
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_L/Ear_L_001
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_R/Ear_R_001
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Eye_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Eye_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/HairBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/JawBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Mouth_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Mouth_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/NoseBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: Sq1Trig/hips/TailBone
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006/TailBone_007
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006/TailBone_007/TailBone_008
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: St_idle1
+      takeName: St_idle1
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: polySurface16_002
+        weight: 1
+      - path: Sq1Trig
+        weight: 1
+      - path: Sq1Trig/hips
+        weight: 1
+      - path: Sq1Trig/hips/spine
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_L/Ear_L_001
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_R/Ear_R_001
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Eye_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Eye_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/HairBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/JawBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Mouth_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Mouth_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/NoseBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: Sq1Trig/hips/TailBone
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006/TailBone_007
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006/TailBone_007/TailBone_008
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: St_jump
+      takeName: St_jump
+      firstFrame: -1
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: polySurface16_002
+        weight: 1
+      - path: Sq1Trig
+        weight: 1
+      - path: Sq1Trig/hips
+        weight: 1
+      - path: Sq1Trig/hips/spine
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_L/Ear_L_001
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Ear_R/Ear_R_001
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Eye_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Eye_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/HairBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/JawBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Mouth_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/Mouth_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/neck/head/NoseBone
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_03_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_L/upper_arm_L/forearm_L/hand_L/palm_04_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_03_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: Sq1Trig/hips/spine/chest/shoulder_R/upper_arm_R/forearm_R/hand_R/palm_04_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: Sq1Trig/hips/TailBone
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006/TailBone_007
+        weight: 1
+      - path: Sq1Trig/hips/TailBone/TailBone_001/TailBone_002/TailBone_003/TailBone_004/TailBone_005/TailBone_006/TailBone_007/TailBone_008
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/foot_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/foot_L/toe_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/heel_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_L/shin_L/heel_L/heel_02_L
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/foot_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/foot_R/toe_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/heel_R
+        weight: 1
+      - path: Sq1Trig/hips/thigh_R/shin_R/heel_R/heel_02_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
